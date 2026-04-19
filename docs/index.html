@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warks Catalog API — Live docs</title>
+    <link rel="stylesheet" href="https://unpkg.com/swagger-ui-dist@5.17.14/swagger-ui.css">
+    <link rel="icon" type="image/png" href="https://fav.farm/%F0%9F%93%A6">
+    <style>
+        body { margin: 0; background: #fafafa; }
+        .topbar { display: none; }
+        .portfolio-banner {
+            background: #0a0e14;
+            color: #e6eaf0;
+            padding: 14px 24px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            font-size: 14px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        .portfolio-banner strong { color: #10b981; }
+        .portfolio-banner a {
+            color: #e6eaf0;
+            text-decoration: none;
+            padding: 6px 14px;
+            border: 1px solid #26303c;
+            border-radius: 6px;
+            transition: background .15s;
+        }
+        .portfolio-banner a:hover { background: #1a2230; }
+    </style>
+</head>
+<body>
+    <div class="portfolio-banner">
+        <span><strong>Warks Catalog API</strong> · Spring Boot 3 + Java 21 · JWT auth · Flyway · Docker · CI</span>
+        <span>
+            <a href="https://github.com/alburma/catalog-api">View source on GitHub →</a>
+        </span>
+    </div>
+    <div id="swagger-ui"></div>
+    <script src="https://unpkg.com/swagger-ui-dist@5.17.14/swagger-ui-bundle.js"></script>
+    <script>
+        window.ui = SwaggerUIBundle({
+            url: "./openapi.json",
+            dom_id: "#swagger-ui",
+            deepLinking: true,
+            presets: [SwaggerUIBundle.presets.apis],
+            layout: "BaseLayout",
+            tryItOutEnabled: false,
+            supportedSubmitMethods: [],
+        });
+    </script>
+</body>
+</html>
