@@ -25,7 +25,7 @@ Java 21 · Spring Boot 3.5 · Spring Security · Spring Data JPA · Flyway · Po
 ## Architecture
 
 ```
-src/main/java/works/brm/catalog
+src/main/java/io/github/alburma/catalog
 ├── domain/       JPA entities (Product, Category, User)
 ├── repo/         Spring Data repositories
 ├── service/      Transactional business logic
