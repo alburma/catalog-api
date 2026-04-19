@@ -4,6 +4,8 @@ Product catalog REST API. Spring Boot 3 backend with JWT-secured admin endpoints
 
 The sample dataset (`src/main/resources/db/dev/V900__dev_seed.sql`) uses a fictional distributor called **Warks** as the demo domain — no real brand or vendor is referenced anywhere in the code.
 
+![Swagger UI](docs/screenshots/desktop-fold.png)
+
 ## What it demonstrates
 
 - Layered architecture: `domain → repo → service → web` with transactional boundaries and DTO-based contracts
