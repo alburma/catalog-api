@@ -18,4 +18,4 @@ spring:
 
 logging:
   level:
-    works.brm.catalog: DEBUG
+    io.github.alburma.catalog: DEBUG
