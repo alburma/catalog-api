@@ -2,6 +2,8 @@
 
 Product catalog REST API. Spring Boot 3 backend with JWT-secured admin endpoints, Flyway-managed PostgreSQL schema, OpenAPI docs, and a containerised deploy. Built as a reference implementation of a production-shaped Spring Boot service.
 
+The sample dataset (`src/main/resources/db/dev/V900__dev_seed.sql`) uses a fictional distributor called **Warks** as the demo domain — no real brand or vendor is referenced anywhere in the code.
+
 ## What it demonstrates
 
 - Layered architecture: `domain → repo → service → web` with transactional boundaries and DTO-based contracts

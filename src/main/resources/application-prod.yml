@@ -13,4 +13,4 @@ spring:
 
 logging:
   level:
-    works.brm.catalog: INFO
+    io.github.alburma.catalog: INFO
